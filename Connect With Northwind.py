@@ -23,7 +23,7 @@ class NorthwindRepository:
         print("Connection closed.")
 
 
-repo = NorthwindRepository('localhost', 'northwind', 'postgres', '')
+repo = NorthwindRepository('localhost', 'northwind', 'postgres', 'addpasswordtohere')
 
 repo.connect_db()
 repo.close_connection()
